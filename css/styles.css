@@ -24,18 +24,20 @@ body {
   align-items: center;
 }
 
+#section-one {
+  display: flex;
+  gap: 50px;
+}
+
 #section-two {
   padding-left: 225px;
   padding-right: 225px;
 }
 
 #section-three {
+  background-color: #E5E7EB;
   padding-left: 275px;
   padding-right: 275px;
-}
-
-#section-three {
-  background-color: #E5E7EB;
 }
 
 #footer {
@@ -122,7 +124,17 @@ p#information-header-text {
   border: 2px solid #3882F6;
 }
 
+/***** Images *****/
+#section-one img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /***** Containers *****/
+#section-one .column {
+  width: 100%;
+}
+
 #feature-item-container {
   display: flex;
   justify-content: space-between;
