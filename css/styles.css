@@ -1,0 +1,140 @@
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+#header, 
+#footer, 
+#section-one {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 0px 150px;
+}
+
+#section-one, 
+#section-two, 
+#section-three, 
+#section-four {
+  padding: 75px 150px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section-two {
+  padding-left: 225px;
+  padding-right: 225px;
+}
+
+#section-three {
+  padding-left: 275px;
+  padding-right: 275px;
+}
+
+#section-three {
+  background-color: #E5E7EB;
+}
+
+#footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***** Header *****/
+#header ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#header a {
+  text-decoration: none;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+/***** Texts *****/
+p#hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+p.hero-secondary-text, 
+#header a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+p.header-logo-text,
+span.header-logo-text {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p#quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+p#attribution-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+}
+
+p#information-header-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#section-two p {
+  text-align: center;
+}
+
+/***** Buttons *****/
+#section-one button, #section-four button {
+  background-color: #3882F6;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+
+#section-one button {
+  border: 2px solid #3882F6;
+}
+
+/***** Containers *****/
+#feature-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+#call-to-action-container {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 25px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
